@@ -8,7 +8,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 const Tab = createBottomTabNavigator();
 
-const NewsNavigation = () => {
+const NewsNavigation = () => {      
     return (
         <Tab.Navigator
             screenOptions={({ route }) => ({
